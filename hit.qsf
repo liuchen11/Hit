@@ -1,0 +1,116 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2011 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 11.0 Build 157 04/27/2011 SJ Full Version
+# Date created = 15:15:04  June 12, 2013
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		hit_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name DEVICE EPM240T100A5
+set_global_assignment -name TOP_LEVEL_ENTITY hit
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 11.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:15:04  JUNE 12, 2013"
+set_global_assignment -name LAST_QUARTUS_VERSION 11.0
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
+set_global_assignment -name VHDL_FILE hit.vhd
+set_location_assignment PIN_29 -to export[0]
+set_location_assignment PIN_30 -to export[1]
+set_location_assignment PIN_33 -to export[2]
+set_location_assignment PIN_34 -to export[3]
+set_location_assignment PIN_43 -to export[4]
+set_location_assignment PIN_47 -to export[5]
+set_location_assignment PIN_48 -to export[6]
+set_location_assignment PIN_49 -to export[7]
+set_location_assignment PIN_58 -to export[8]
+set_location_assignment PIN_61 -to export[9]
+set_location_assignment PIN_62 -to export[10]
+set_location_assignment PIN_64 -to export[11]
+set_location_assignment PIN_74 -to export[12]
+set_location_assignment PIN_75 -to export[13]
+set_location_assignment PIN_76 -to export[14]
+set_location_assignment PIN_77 -to export[15]
+set_location_assignment PIN_35 -to export[16]
+set_location_assignment PIN_36 -to export[17]
+set_location_assignment PIN_37 -to export[18]
+set_location_assignment PIN_38 -to export[19]
+set_location_assignment PIN_39 -to export[20]
+set_location_assignment PIN_40 -to export[21]
+set_location_assignment PIN_41 -to export[22]
+set_location_assignment PIN_42 -to export[23]
+set_location_assignment PIN_66 -to export[24]
+set_location_assignment PIN_67 -to export[25]
+set_location_assignment PIN_68 -to export[26]
+set_location_assignment PIN_69 -to export[27]
+set_location_assignment PIN_70 -to export[28]
+set_location_assignment PIN_71 -to export[29]
+set_location_assignment PIN_72 -to export[30]
+set_location_assignment PIN_73 -to export[31]
+set_location_assignment PIN_50 -to export[32]
+set_location_assignment PIN_51 -to export[33]
+set_location_assignment PIN_52 -to export[34]
+set_location_assignment PIN_53 -to export[35]
+set_location_assignment PIN_54 -to export[36]
+set_location_assignment PIN_55 -to export[37]
+set_location_assignment PIN_56 -to export[38]
+set_location_assignment PIN_57 -to export[39]
+set_location_assignment PIN_78 -to export[40]
+set_location_assignment PIN_81 -to export[41]
+set_location_assignment PIN_82 -to export[42]
+set_location_assignment PIN_83 -to export[43]
+set_location_assignment PIN_84 -to export[44]
+set_location_assignment PIN_85 -to export[45]
+set_location_assignment PIN_86 -to export[46]
+set_location_assignment PIN_87 -to export[47]
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_1 -to sco[0]
+set_location_assignment PIN_2 -to sco[1]
+set_location_assignment PIN_3 -to sco[2]
+set_location_assignment PIN_4 -to sco[3]
+set_location_assignment PIN_5 -to sco[4]
+set_location_assignment PIN_6 -to sco[5]
+set_location_assignment PIN_7 -to sco[6]
+set_location_assignment PIN_8 -to sco[7]
+set_location_assignment PIN_14 -to tbeat[0]
+set_location_assignment PIN_15 -to tbeat[1]
+set_location_assignment PIN_16 -to tbeat[2]
+set_location_assignment PIN_17 -to tbeat[3]
+set_location_assignment PIN_18 -to difficulty[0]
+set_location_assignment PIN_19 -to difficulty[1]
+set_location_assignment PIN_20 -to sclk
+set_location_assignment PIN_21 -to tclk
+set_location_assignment PIN_12 -to pause
+set_location_assignment PIN_44 -to clock

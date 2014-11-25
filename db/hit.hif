@@ -1,0 +1,145 @@
+Quartus II
+Version 11.0 Build 157 04/27/2011 SJ Full Version
+49
+4329
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+hit
+# storage
+db|hit.(0).cnf
+db|hit.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+hit.vhd
+41da81483a48b698c355db2ff8ddf91c
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+largelymfs
+# storage
+db|hit.(1).cnf
+db|hit.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+hit.vhd
+41da81483a48b698c355db2ff8ddf91c
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(lif)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(dir_a)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(dir_b)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(exist)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(output)
+47 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+largelymfs:u1
+}
+# macro_sequence
+
+# end
+# entity
+display_basic
+# storage
+db|hit.(2).cnf
+db|hit.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+hit.vhd
+41da81483a48b698c355db2ff8ddf91c
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(led_pos)
+8 downto 0
+PARAMETER_STRING
+USR
+ constraint(output_ly)
+47 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+largelymfs:u1|display_basic:u1
+}
+# macro_sequence
+
+# end
+# complete
+
